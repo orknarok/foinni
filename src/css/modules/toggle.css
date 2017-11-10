@@ -1,0 +1,40 @@
+/* Toggle for dropdown menu */
+.toggle {
+  float: right;
+
+  padding: 0 15px;
+}
+
+.toggle-button {
+  display: inline-block;
+
+  line-height: 1.2;
+
+  color: #fff;
+}
+
+/* Toggle button icons */
+.toggle-icon {
+  font-size: inherit;
+  line-height: inherit;
+
+  cursor: pointer;
+}
+
+/* Default icon display */
+.toggle-button .icon-menu  {
+  display: inline-block;
+}
+
+.toggle-button .icon-cancel  {
+  display: none;
+}
+
+/* Change icon when toggle-button is pressed */
+.toggle-button--isActive .icon-menu {
+  display: none;
+}
+
+.toggle-button--isActive .icon-cancel {
+  display: inline-block;
+}

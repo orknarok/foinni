@@ -1,0 +1,78 @@
+/*
+*
+  16px FireFox/Chrome scrollbar width
+
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Exo', sans-serif;
+
+  thin      100
+  light     300
+  regular   400
+  medium    500
+  bold      700
+  black     900
+
+  white       rgb(255,252,244);
+  green       rgb(29,222,139);
+  gray        rgb(150,150,150);
+  dark gray   rgb(70,70,70);
+  black       #000;
+*
+*/
+
+div, span, h1, h2, p, header, main,
+footer, nav, section, ul, li, a, i, b {
+  /* background-color: rgba(0,70,50,0.2); */
+}
+
+/* p, span, h1, h2, h3 {
+  outline: 1px solid;
+} */
+
+
+.header {
+  /* display: none; */
+}
+
+.banner {
+  /* display: none; */
+}
+
+
+.services {
+  /* display: none; */
+}
+
+.team {
+  /* display: none; */
+}
+
+.works {
+  /* display: none; */
+}
+
+.prices {
+  /* display: none; */
+}
+
+.contact {
+  /* display: none; */
+}
+
+.footer {
+  /* display: none; */
+}
+
+.subscribe {
+  /* display: none; */
+}
+
+.feedback {
+  /* display: none; */
+}
+
+.filter {
+  /* display: none; */
+}

@@ -1,0 +1,47 @@
+/*------------------------------------*\
+  #SUBCRIBE FORM
+\*------------------------------------*/
+
+.subscribe {}
+
+.subscribe-title {
+  margin-bottom: 10px;
+  /* margin-top: 10px; */
+  font-size: 18px;
+  line-height: 2;
+}
+ /* Subcribe form fields */
+.subscribe-email,
+.subscribe-button {
+  display: block;
+
+  font-weight: 300;
+}
+
+.subscribe-email {
+  width: 75%;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+
+  font-size: 14px;
+  font-weight: 300;
+
+  color: rgb(150,150,150);
+  border: 1px solid;
+  background-color: transparent;
+}
+
+/* Subcribe form button */
+.subscribe-button {
+  padding: 9px 15px;
+
+  font-size: 16px;
+}
+
+@media all and (max-width: 799px) {
+
+  .subscribe-email {
+    width: 50%;
+  }
+
+}

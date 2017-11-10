@@ -1,0 +1,13 @@
+.page {
+  font: 400 10px/normal 'Roboto', Arial, Helvetica, sans-serif;
+
+  background-color: rgb(255,252,244);
+}
+
+/* Horizontal align wrappers */
+.page-inner,
+.page-header {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
