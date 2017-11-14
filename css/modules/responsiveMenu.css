@@ -1,0 +1,43 @@
+/* responsive-nav.js 1.0.39 by @viljamis */
+
+.js .menu {
+  position: absolute;
+
+  display: block;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  zoom: 1;
+
+  max-height: 0;
+}
+
+.js .menu--isOpened {
+  max-height: 9999px;
+}
+
+.toggle-button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+}
+
+@media all and (min-width: 800px) {
+
+  .js .menu {
+    position: relative;
+  }
+
+  .js .menu--isClosed {
+    max-height: none;
+  }
+
+  .toggle-button {
+    display: none;
+  }
+
+}
